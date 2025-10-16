@@ -1,0 +1,22 @@
+switch> enable
+#vlan database
+#vlan 2 name HR
+#vlan 3 name SALES
+#exit
+#configue terminal
+#int vlan 1
+#ip add 10.0.0.1 255.0.0.0
+#no shutdown 
+#exit
+#int range f0/1 - f0/2
+#switchport mode access
+#switchport access vlan 2
+#exit
+#int range f0/3 - f0/4
+#switchport mode access
+#switchport access vlan 3
+#exit
+#int range f0/21 - f0/24
+#channel-group 4 mode desirable 
+#channel-protocol lacp
+#exit
