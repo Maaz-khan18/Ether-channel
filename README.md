@@ -8,7 +8,7 @@ Networking Lab: EtherChannel Implementation in Cisco Packet Tracer | This projec
 # Tools & Technologies
 - Cisco Packet Tracer (simulation environment)
 - EtherChannel (Layer 2 port aggregation)
-- Switches & PCs (Cisco 2960 switches, end devices)
+- Switches & PCs (Cisco 2950 switches, end devices)
 - CLI commands for configuration and verification
 # Key Configurations
 - Created a topology with multiple switches connected via FastEthernet links.
